@@ -1,10 +1,5 @@
-/*
 
-Hydro Template 
 
-http://www.templatemo.com/tm-509-hydro
-
-*/  
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
   body {
@@ -589,8 +584,8 @@ http://www.templatemo.com/tm-509-hydro
   }
 
   .google-map {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
     margin: 0 auto;
   }
@@ -821,6 +816,13 @@ http://www.templatemo.com/tm-509-hydro
 
     h1 {
       font-size: 2em;
+    }
+
+    .custom-navbar .navbar-brand,
+    .top-nav-collapse .navbar-brand {
+      color: #505050;
+      font-weight: lighter;
+      font-size: 16px;
     }
 
   }
